@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import logo from '../../assets/logo-campusdrive.jpg'
 
 const columns = [
   {
@@ -32,7 +33,14 @@ export default function Footer() {
     <footer className="border-t border-[#E2E8F0] bg-[#071B33] text-white">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-[1.2fr_2fr] lg:px-8">
         <div>
-          <p className="text-2xl font-black">UniRide</p>
+          <div className="flex items-center gap-3">
+            <img
+              src={logo}
+              alt="CampusDrive Logo"
+              className="h-10 w-10 rounded-xl object-cover"
+            />
+            <p className="text-2xl font-black">UniRide</p>
+          </div>
           <p className="mt-3 max-w-sm text-sm leading-6 text-sky-100">
             Viajes compartidos desde campus para estudiantes que salen de clases
             de noche en Lima Metropolitana.
