@@ -4,7 +4,7 @@ export default function PricingHero() {
   return (
     <section className="bg-[linear-gradient(180deg,#FFFFFF_0%,#EAF6FF_100%)] py-16 sm:py-20">
       <div className="mx-auto max-w-5xl px-4 text-center sm:px-6 lg:px-8">
-        <Badge>Pricing piloto</Badge>
+        <Badge>Precios que se ajustan a tus necesidades</Badge>
         <h1 className="mx-auto mt-6 max-w-4xl text-4xl font-black leading-tight text-[#071B33] sm:text-5xl">
           Planes simples para una movilidad universitaria más segura.
         </h1>
