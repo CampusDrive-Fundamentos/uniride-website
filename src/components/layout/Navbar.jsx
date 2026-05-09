@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import Button from '../common/Button'
+import logo from '../../assets/logo-campusdrive.jpg'
 
 const links = [
   { label: 'Producto', to: '/' },
@@ -29,14 +30,11 @@ export default function Navbar() {
           className="flex min-w-0 items-center gap-3 rounded-full focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#1EA7FF]"
           onClick={() => setIsOpen(false)}
         >
-          <span
-            className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-[#B8E5FF] bg-[#EAF6FF]"
-            aria-hidden="true"
-          >
-            <span className="absolute h-5 w-6 rounded-full border-2 border-[#1EA7FF]" />
-            <span className="absolute left-2 top-3 h-2 w-2 rounded-full bg-[#071B33]" />
-            <span className="absolute bottom-3 right-2 h-2 w-2 rounded-full bg-[#38BDF8]" />
-          </span>
+          <img
+            src={logo}
+            alt="CampusDrive Logo"
+            className="h-10 w-10 shrink-0 rounded-xl object-cover"
+          />
           <span className="min-w-0">
             <span className="block text-sm font-black leading-4 text-[#071B33] sm:text-base">
               UniRide
