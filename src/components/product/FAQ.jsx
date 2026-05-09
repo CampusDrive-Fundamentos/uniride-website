@@ -3,7 +3,7 @@ import { faqs } from '../../data/faqs'
 
 export default function FAQ() {
   return (
-    <section className="bg-white py-16 sm:py-20">
+    <section className="border-t border-[#E2E8F0] bg-white py-16 sm:py-20">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Preguntas frecuentes"

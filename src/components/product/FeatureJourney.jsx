@@ -3,7 +3,7 @@ import { journeyFeatures } from '../../data/features'
 
 export default function FeatureJourney() {
   return (
-    <section className="bg-[#F8FBFF] py-16 sm:py-20">
+    <section className="border-t border-[#E2E8F0] bg-white py-16 sm:py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Ruta de confianza"
