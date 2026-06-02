@@ -17,14 +17,18 @@ export default function Testimonials() {
               key={testimonial.role}
               className="rounded-3xl border border-[#D8EEFF] bg-white p-6 shadow-sm"
             >
-              <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#EAF6FF] text-lg font-black text-[#1EA7FF]">
-                “”
+              <div className="flex h-30 w-30 items-center justify-center rounded-2xl overflow-hidden bg-[#EAF6FF] text-lg font-black text-[#1EA7FF]">
+                  <img
+                    src={testimonial.logo}
+                    alt={testimonial.name}
+                    className="h-full w-full object-cover rounded-2xl"
+                  />
               </div>
-              <p className="mt-5 text-base leading-8 text-[#071B33]">
-                “{testimonial.quote}”
-              </p>
               <p className="mt-5 text-sm font-bold text-[#1EA7FF]">
                 {testimonial.role}
+              </p>
+              <p className="mt-5 text-base leading-8 text-[#071B33]">
+                “{testimonial.quote}”
               </p>
             </article>
           ))}

@@ -92,9 +92,6 @@ export default function HeroProduct() {
           </p>
           <div className="mt-8 flex flex-col gap-3 min-[380px]:flex-row">
             <Button href="#como-funciona">Buscar mi ruta</Button>
-            <Button href="#como-funciona" variant="secondary">
-              Ver cómo funciona
-            </Button>
           </div>
           <div className="mt-8 grid gap-3 text-sm text-[#475569] sm:grid-cols-3">
             <p className="font-semibold rounded-2xl border border-[#1EA7FF] bg-white p-3 hover:bg-[#6cc2f7] hover:text-white transition-colors duration-300 ease-in-out">

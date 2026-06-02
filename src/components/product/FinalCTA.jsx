@@ -17,7 +17,7 @@ export default function FinalCTA() {
             </p>
           </div>
           <div className="flex flex-col gap-3 min-[380px]:flex-row lg:justify-end">
-            <Button href="#como-funciona" variant="primary">
+            <Button href="https://www.figma.com/proto/HF901noZfZmdidNlSYxZhW/CampusDrive-Figma?node-id=140-500&p=f&t=Upm16FN2fFz8i4fs-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=80%3A1211&show-proto-sidebar=1" variant="primary">
               Probar prototipo
             </Button>
             <Button to="/pricing" variant="secondary">
